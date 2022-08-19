@@ -142,9 +142,6 @@ create table Desastres(
      #print(row) 
      #print(df)
 
-def Extract_info(file_to_process):
-     dataframe = pd.read_csv(file_to_process)
-     return dataframe
 
 def Extracion():
      #df = Extract_info('prueba.csv')
