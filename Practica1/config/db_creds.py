@@ -4,7 +4,7 @@ def obtener_conection():
          server = 'localhost'
          user = 'SA' 
          password='Pass1234.'
-         dbname ="TestDB"
+         dbname ="Practica1"
 
          return pymssql.connect(
          server, 

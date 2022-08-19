@@ -1,5 +1,5 @@
 from colorama import Back,Fore, init
-
+from ProccesoETL import Etl 
 init()
 
 def Menu_Princial():
@@ -32,24 +32,24 @@ def Menu_Princial():
                 elif opcion =="5":
                     Consulta()
                 elif opcion =="6":
-                    print(Back.GREEN,Fore.WHITE,"!! Sa  lio con exito !!",Back.RESET)
+                    print(Back.GREEN,Fore.WHITE,"!! Exit successfully !!",Back.RESET)
                     break
                 else:
-                    print(Back.RED,Fore.WHITE,"!!Valor invalido !!",Back.RESET)
+                    print(Back.RED,Fore.WHITE,"!! Please, enter a correct value !!",Back.RESET)
         
         else:
-            print(Back.YELLOW,Fore.WHITE," Error al introducir un valor nulo ",Back.RESET)
+            print(Back.YELLOW,Fore.WHITE," Mistake at enter a null value ",Back.RESET)
                     
                  
 def Borrar_Modelo():
     print(" ########## Borrar Modelo ########## ")
-
+    Etl.Delete_Models()
 def Crear_Modelo():
     print(" ########## Crear Modelo ########## ")
-
+    Etl.Create_Modelo() 
 def Extraer_Info():
     print(" ########## Extraer Informacion ########## ")
-
+    Etl.Extracion() 
 def Carga_info():
     print(" ########## Cargar info ########## ")
 
