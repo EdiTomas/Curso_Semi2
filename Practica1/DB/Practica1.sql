@@ -3,6 +3,8 @@ use Practica1;
 --USE master ;  
 --Drop database Practica1
 SELECT Name from sys.tables;
+
+/*
 select * from Tsunami
 select * from Country
 select * from temptsunami
@@ -71,6 +73,18 @@ create table Desastres(
 select * from Desastres 
 
 
-insert into temptsunami()
+insert into Desastres (cod_Tsunami ,cod_country,cod_tiempo,cod_damage) 
+select Tsunami.cod_Tsunami , Country.cod_country,Tiempo.cod_tiempo, damage.cod_damage from temptsunami 
+INNER JOIN Tsunami ON  temptsunami.Tsunami_event_validity = Tsunami.Tsunami_event_validity 
+INNER JOIN Country ON  temptsunami.Country = Country.Country 
+INNER JOIN Tiempo  ON  temptsunami.Anio  = Tiempo.Year
+INNER JOIN damage  ON  temptsunami.Total_deaths = damage.Total_Deaths 
+GROUP by Tsunami.cod_Tsunami , Country.cod_country,Tiempo.cod_tiempo, damage.cod_damage
+;
 
-select * from temptsunami
+insert into Desastres (cod_Tsunami)
+select Tsunami.cod_Tsunami  from temptsunami 
+INNER JOIN Tsunami ON  temptsunami.Tsunami_event_validity = Tsunami.Tsunami_event_validity
+*/
+
+

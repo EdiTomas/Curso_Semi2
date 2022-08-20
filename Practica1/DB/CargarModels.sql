@@ -1,3 +1,4 @@
+/*
 insert into Tsunami (Tsunami_event_validity,
                      Tsunami_cause_code,
                      Tsunami_Magnitude,
@@ -40,3 +41,26 @@ select Total_deaths,Total_missing ,Total_missing_description ,
        Total_injuries ,Total_damage ,Total_damage_description ,
        Total_houses_destroyed ,Total_houses_damaged 
    
+*/
+
+insert into Pais(Country)
+select Country from temptsunami 
+GROUP BY Country
+  
+insert into Locationname (Location_name,id_pais)
+select Location_name, Pais.id_pais  from temptsunami 
+INNER JOIN Ṕais ON  temptsunami.Country = Ṕais.Country 
+GROUP BY Location_name, Pais.id_pais
+
+
+
+
+
+
+
+
+
+
+
+
+
