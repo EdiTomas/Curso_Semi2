@@ -49,12 +49,93 @@ def Crear_Modelo():
     Etl.Create_Modelo() 
 def Extraer_Info():
     print(" ########## Extraer Informacion ########## ")
-    Etl.Extracion() 
+    Etl.Extracion()
+    #Etl.Transform_data() 
+
 def Carga_info():
     print(" ########## Cargar info ########## ")
+    Etl.Load_data()
 
+
+    
 def Consulta():
-    print(" ########## Consulta ########## ")
+     
+     while True: 
+        print(Back.BLACK,"|----------------------------------------------------|",Back.RESET)
+        print(Back.LIGHTBLUE_EX,"|                  SUB MENU                            |",Back.RESET)
+        print(Back.BLACK,"|----------------------------------------------------|")
+        print(Back.BLACK,"|  1)  Reporte 1                                     |")
+        print(Back.BLACK,"|  2)  Reporte 2                                     |")
+        print(Back.BLACK,"|  3)  Reporte 3                                     |")
+        print(Back.BLACK,"|  4)  Reporte 4                                     |")
+        print(Back.BLACK,"|  5)  Reporte 5                                     |")
+        print(Back.BLACK,"|  6)  Reporte 6                                     |")
+        print(Back.BLACK,"|  7)  Reporte 7                                     |")
+        print(Back.BLACK,"|  8)  Reporte 8                                     |")
+        print(Back.BLACK,"|  9)  Reporte 9                                     |")
+        print(Back.BLACK,"| 10)  Reporte 10                                    |")
+        print(Back.BLACK,"| 11)  Regresar                                     |")
+        
+        print(Back.BLACK,"|----------------------------------------------------|",Back.RESET)
+        print(Back.CYAN,"   Seleccione una opcion:                             ",Back.RESET)
+        print("")
+        print(Fore.YELLOW,">>",Fore.RESET,end =" ")
+        opcion = input()
+        if opcion !=None:
+                if opcion == "1":
+                    reporte1()                
+                elif opcion =="2":
+                    reporte2()
+                elif opcion =="3":
+                    reporte3()
+                elif opcion =="4":
+                    reporte4()
+                elif opcion =="5":
+                    reporte5()
+                elif opcion =="6":
+                    reporte6()
+                elif opcion =="7":
+                    reporte7()
+                elif opcion =="8":
+                    reporte8()
+                elif opcion =="9":
+                    reporte9()
+                elif opcion =="10":
+                    reporte10()
+                elif opcion =="11":
+                    break
+                else:
+                    print(Back.RED,Fore.WHITE,"!! Please, enter a correct value !!",Back.RESET)
+        
+        else:
+            print(Back.YELLOW,Fore.WHITE," Mistake at enter a null value ",Back.RESET)
+
+
+def reporte1():
+     print(" Reporte 1")
+
+def reporte2():
+     print(" Reporte 1")
+def reporte3():
+     print(" Reporte 1")
+def reporte4():
+     print(" Reporte 1")
+def reporte5():
+     print(" Reporte 1")
+def reporte6():
+     print(" Reporte 1")
+def reporte6():
+     print(" Reporte 1")
+def reporte7():
+     print(" Reporte 1")
+def reporte8():
+     print(" Reporte 1")
+def reporte9():
+     print(" Reporte 1")
+def reporte10():
+     print(" Reporte 1")
+
+
 
 
 

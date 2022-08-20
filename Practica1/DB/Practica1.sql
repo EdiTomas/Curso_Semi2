@@ -4,7 +4,15 @@ use Practica1;
 --Drop database Practica1
 SELECT Name from sys.tables;
 select * from Tsunami
+select * from Country
+select * from temptsunami
 
+               DROP TABLE Desastres
+               DROP TABLE Tsunami
+               DROP TABLE Country
+               DROP TABLE Tiempo
+               DROP TABLE damage
+               DROP TABLE temptsunami
 create table Tsunami (
  cod_Tsunami int identity(1,1) primary key,
  Tsunami_event_validity int null,
@@ -62,3 +70,7 @@ create table Desastres(
 
 select * from Desastres 
 
+
+insert into temptsunami()
+
+select * from temptsunami
