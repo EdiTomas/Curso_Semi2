@@ -24,8 +24,10 @@ END
                     AND OBJECT_ID('Locationname') IS NOT NULL
                        
 BEGIN
-               DROP TABLE temptsunami
                DROP TABLE Tsunami
-               DROP TABLE Pais
                DROP TABLE Locationname
+               DROP TABLE Pais
+               DROP TABLE temptsunami
+               
+               
 END

@@ -103,6 +103,18 @@ END
 
 BEGIN 
 
+CREATE TABLE Pais(
+    id_pais int identity(1,1) primary key,
+    Country VARCHAR(200) NULL
+)
+
+CREATE TABLE Locationname(
+    id_location_name int identity(1,1) primary key,
+    Location_name VARCHAR(600) NULL,   
+    id_pais int, 
+    constraint fK_Pais_id_pais foreign key (id_pais) REFERENCES Pais (id_pais) 
+)
+
 
 CREATE TABLE temptsunami(
     temptsunami int identity(1,1) primary key,
@@ -160,21 +172,10 @@ CREATE TABLE Tsunami(
     Total_damage_description INT NULL,
     Total_houses_destroyed INT NULL,
     Total_houses_damaged INT NULL,
-    id_location_name int 
-    constraint fK_Country_id_location_name foreign key (id_location_name) REFERENCES Locationname (id_location_name)
+    id_location_name int, 
+    constraint fK_Locationname_id_location_name foreign key (id_location_name) REFERENCES Locationname (id_location_name)
 )
 
-CREATE TABLE Locationname(
-    id_location_name int identity(1,1) primary key,
-    Location_name VARCHAR(600) NULL,   
-    id_pais int, 
-    constraint fK_Country_id_pais foreign key (id_pais) REFERENCES Pais (id_pais) 
-)
-
-CREATE TABLE Pais(
-    id_pais int identity(1,1) primary key,
-    Country VARCHAR(200) NULL
-)
 
 
 

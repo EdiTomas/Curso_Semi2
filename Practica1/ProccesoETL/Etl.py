@@ -142,9 +142,178 @@ def Load_data():
      
      
 
-#"INSERT INTO Persona  (nombre,cantidad,precio,total) values(?,?,?,?)",
- #   ( 'John Smith',10,10,5.52)
 
-#def Transform_Load():
- #    df = pd.DataFrame(datos)
-  #   print(df)
+def reporte1():
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte1.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          #for row in cursor:
+          #    print(Back.MAGENTA,Fore.BLACK," Total = %s" % (row[0]),Back.RESET)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)                    
+     
+
+def reporte2():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 2 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte2.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+
+
+
+def reporte3():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 3 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte3.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte4():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 4 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte4.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte5():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 5 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte5.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte6():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 6 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte6.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte7():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 7 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte7.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte8():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 8 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte8.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte9():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 9 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte9.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+def reporte10():
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 10 ##############",Back.RESET  )
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
+          fichero = open('./DB/Reporte10.sql')
+          sql= fichero.read()
+          cursor.execute(sql)
+          df = pd.DataFrame(cursor)
+          print (df)
+          conn.commit()
+          conn.close()
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)

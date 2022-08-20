@@ -112,28 +112,36 @@ def Consulta():
 
 
 def reporte1():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 1 ##############",Back.RESET  )
+     Etl.reporte1()
 
 def reporte2():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 2 ##############",Back.RESET  )
+
 def reporte3():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 3 ##############",Back.RESET  )
+
 def reporte4():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 4 ##############",Back.RESET  )
+
 def reporte5():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 5 ##############",Back.RESET  )
+
 def reporte6():
-     print(" Reporte 1")
-def reporte6():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 6 ##############",Back.RESET  )
+
 def reporte7():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 7 ##############",Back.RESET  )
+
 def reporte8():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 8 ##############",Back.RESET  )
+
 def reporte9():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 9 ##############",Back.RESET  )
+
 def reporte10():
-     print(" Reporte 1")
+     print(Back.LIGHTYELLOW_EX,"############## Reporte 10 ##############",Back.RESET  )
+
 
 
 
