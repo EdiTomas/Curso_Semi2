@@ -117,30 +117,39 @@ def reporte1():
 
 def reporte2():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 2 ##############",Back.RESET  )
+     Etl.reporte2()
 
 def reporte3():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 3 ##############",Back.RESET  )
-
+     Etl.reporte3()
+ 
 def reporte4():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 4 ##############",Back.RESET  )
+     Etl.reporte4()
 
 def reporte5():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 5 ##############",Back.RESET  )
+     Etl.reporte5()
 
 def reporte6():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 6 ##############",Back.RESET  )
+     Etl.reporte6()
 
 def reporte7():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 7 ##############",Back.RESET  )
+     Etl.reporte7()
 
 def reporte8():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 8 ##############",Back.RESET  )
+     Etl.reporte8()
 
 def reporte9():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 9 ##############",Back.RESET  )
+     Etl.reporte9()
 
 def reporte10():
      print(Back.LIGHTYELLOW_EX,"############## Reporte 10 ##############",Back.RESET  )
+     Etl.reporte10()
 
 
 

@@ -2,9 +2,6 @@ from colorama import Back,Fore, init
 import pandas as pd
 from config import db_creds
 init()
-#cursor.execute('SELECT * FROM PROFESION ')
-    #for row in cursor:
-    #   print("ID=%d, Name=%s" % (row['cod_prof'], row['nombre']))
     
 def Delete_Models():
      conn = db_creds.obtener_conection()
@@ -152,8 +149,6 @@ def reporte1():
           cursor.execute(sql)
           df = pd.DataFrame(cursor)
           print (df)
-          #for row in cursor:
-          #    print(Back.MAGENTA,Fore.BLACK," Total = %s" % (row[0]),Back.RESET)
           conn.commit()
           conn.close()
      except:
@@ -163,7 +158,6 @@ def reporte1():
      
 
 def reporte2():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 2 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -183,7 +177,6 @@ def reporte2():
 
 
 def reporte3():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 3 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -200,7 +193,6 @@ def reporte3():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte4():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 4 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -217,7 +209,6 @@ def reporte4():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte5():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 5 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -234,7 +225,6 @@ def reporte5():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte6():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 6 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -251,7 +241,6 @@ def reporte6():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte7():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 7 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -268,7 +257,6 @@ def reporte7():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte8():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 8 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -285,7 +273,6 @@ def reporte8():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte9():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 9 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
@@ -302,7 +289,6 @@ def reporte9():
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
 
 def reporte10():
-     print(Back.LIGHTYELLOW_EX,"############## Reporte 10 ##############",Back.RESET  )
      conn = db_creds.obtener_conection()
      cursor = conn.cursor()
      try:
