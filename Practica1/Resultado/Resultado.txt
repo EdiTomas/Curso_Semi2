@@ -1,4 +1,105 @@
-      0
-0   104
-1  2383
-2   828
+ Pais = ALBANIA, Alutra maxima = 0.100000 
+ Pais = ALGERIA, Alutra maxima = 1.000000 
+ Pais = ANTARCTICA, Alutra maxima = 0.200000 
+ Pais = ANTIGUA AND BARBUDA, Alutra maxima = 0.000000 
+ Pais = ARGENTINA, Alutra maxima = 1.000000 
+ Pais = ATLANTIC OCEAN, Alutra maxima = 3.250000 
+ Pais = AUSTRALIA, Alutra maxima = 0.652173 
+ Pais = BANGLADESH, Alutra maxima = 0.000000 
+ Pais = BULGARIA, Alutra maxima = 1.571428 
+ Pais = CAMEROON, Alutra maxima = 40.000000 
+ Pais = CANADA, Alutra maxima = 4.440000 
+ Pais = CHILE, Alutra maxima = 2.493333 
+ Pais = CHINA, Alutra maxima = 3.076923 
+ Pais = COLOMBIA, Alutra maxima = 1.875000 
+ Pais = CONGO, Alutra maxima = 0.625000 
+ Pais = COOK ISLANDS, Alutra maxima = 0.750000 
+ Pais = COSTA RICA, Alutra maxima = 0.266666 
+ Pais = CROATIA, Alutra maxima = 0.000000 
+ Pais = CUBA, Alutra maxima = 0.200000 
+ Pais = CYPRUS, Alutra maxima = 0.000000 
+ Pais = DENMARK, Alutra maxima = 0.000000 
+ Pais = DOMINICAN REPUBLIC, Alutra maxima = 1.500000 
+ Pais = ECUADOR, Alutra maxima = 0.666666 
+ Pais = EGYPT, Alutra maxima = 1.000000 
+ Pais = EL SALVADOR, Alutra maxima = 1.928571 
+ Pais = ERITREA, Alutra maxima = 0.000000 
+ Pais = FIJI, Alutra maxima = 2.142857 
+ Pais = FRANCE, Alutra maxima = 0.800000 
+ Pais = FRENCH POLYNESIA, Alutra maxima = 3.000000 
+ Pais = GEORGIA, Alutra maxima = 0.000000 
+ Pais = GHANA, Alutra maxima = 0.714285 
+ Pais = GREECE, Alutra maxima = 1.043478 
+ Pais = GREENLAND, Alutra maxima = 31.600000 
+ Pais = GRENADA, Alutra maxima = 1.000000 
+ Pais = GUADELOUPE (FRENCH TERRITORY), Alutra maxima = 0.375000 
+ Pais = GUATEMALA, Alutra maxima = 0.000000 
+ Pais = HAITI, Alutra maxima = 1.333333 
+ Pais = HOLLAND, Alutra maxima = 0.000000 
+ Pais = HONDURAS, Alutra maxima = 3.428571 
+ Pais = ICELAND, Alutra maxima = 10.000000 
+ Pais = INDIA, Alutra maxima = 0.500000 
+ Pais = INDONESIA, Alutra maxima = 4.329457 
+ Pais = IRAN, Alutra maxima = 1.000000 
+ Pais = ISRAEL, Alutra maxima = 0.666666 
+ Pais = ITALY, Alutra maxima = 2.642201 
+ Pais = JAMAICA, Alutra maxima = 0.600000 
+ Pais = JAPAN, Alutra maxima = 1.817777 
+ Pais = JORDAN, Alutra maxima = 1.000000 
+ Pais = KENYA, Alutra maxima = 6.000000 
+ Pais = KERMADEC ISLANDS, Alutra maxima = 0.545454 
+ Pais = KOREA, Alutra maxima = 0.000000 
+ Pais = LEBANON, Alutra maxima = 0.000000 
+ Pais = MARSHALL ISLANDS, REP. OF, Alutra maxima = 0.000000 
+ Pais = MARTINIQUE (FRENCH TERRITORY), Alutra maxima = 0.666666 
+ Pais = MEXICO, Alutra maxima = 1.525423 
+ Pais = MICRONESIA, FED. STATES OF, Alutra maxima = 0.000000 
+ Pais = MONTENEGRO, Alutra maxima = 0.666666 
+ Pais = MONTSERRAT, Alutra maxima = 2.000000 
+ Pais = MOROCCO, Alutra maxima = 0.000000 
+ Pais = MYANMAR (BURMA), Alutra maxima = 1.000000 
+ Pais = NAURU, Alutra maxima = 0.000000 
+ Pais = NEPAL, Alutra maxima = 0.000000 
+ Pais = NETHERLANDS, Alutra maxima = 0.666666 
+ Pais = NEW CALEDONIA, Alutra maxima = 0.842105 
+ Pais = NEW ZEALAND, Alutra maxima = 1.043956 
+ Pais = NICARAGUA, Alutra maxima = 3.375000 
+ Pais = NORTHWEST PACIFIC OCEAN, Alutra maxima = 0.000000 
+ Pais = NORWAY, Alutra maxima = 8.916666 
+ Pais = PACIFIC OCEAN, Alutra maxima = 0.000000 
+ Pais = PAKISTAN, Alutra maxima = 4.500000 
+ Pais = PANAMA, Alutra maxima = 0.526315 
+ Pais = PAPUA NEW GUINEA, Alutra maxima = 1.582278 
+ Pais = PERU, Alutra maxima = 2.264150 
+ Pais = PHILIPPINES, Alutra maxima = 0.956043 
+ Pais = PORTUGAL, Alutra maxima = 2.687500 
+ Pais = RUSSIA, Alutra maxima = 3.670103 
+ Pais = SAINT VINCENT AND THE GRENADINES, Alutra maxima = 1.000000 
+ Pais = SAMOA, Alutra maxima = 2.437500 
+ Pais = SCOTLAND, Alutra maxima = 1.000000 
+ Pais = SOLOMON ISLANDS, Alutra maxima = 1.617647 
+ Pais = SOUTH AFRICA, Alutra maxima = 1.166666 
+ Pais = SOUTH KOREA, Alutra maxima = 0.600000 
+ Pais = SPAIN, Alutra maxima = 1.857142 
+ Pais = SRI LANKA, Alutra maxima = 0.000000 
+ Pais = SUDAN, Alutra maxima = 0.000000 
+ Pais = SWEDEN, Alutra maxima = 5.000000 
+ Pais = SWITZERLAND, Alutra maxima = 1.000000 
+ Pais = TAIWAN, Alutra maxima = 0.708333 
+ Pais = TOGO, Alutra maxima = 0.714285 
+ Pais = TONGA, Alutra maxima = 0.793103 
+ Pais = TRINIDAD AND TOBAGO, Alutra maxima = 0.000000 
+ Pais = TUNISIA, Alutra maxima = 0.500000 
+ Pais = TURKEY, Alutra maxima = 0.804878 
+ Pais = TURKMENISTAN, Alutra maxima = 0.500000 
+ Pais = UK, Alutra maxima = 0.285714 
+ Pais = UK TERRITORY, Alutra maxima = 1.200000 
+ Pais = UKRAINE, Alutra maxima = 1.250000 
+ Pais = URUGUAY, Alutra maxima = 0.000000 
+ Pais = USA, Alutra maxima = 7.157692 
+ Pais = USA TERRITORY, Alutra maxima = 1.521739 
+ Pais = VANUATU, Alutra maxima = 1.333333 
+ Pais = VENEZUELA, Alutra maxima = 1.050000 
+ Pais = VIETNAM, Alutra maxima = 2.500000 
+ Pais = WALLIS AND FUTUNA (FRENCH TERRITORY), Alutra maxima = 0.000000 
+

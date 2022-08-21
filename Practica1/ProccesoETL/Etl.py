@@ -141,21 +141,25 @@ def Load_data():
 
 
 def reporte1():
-          conn = db_creds.obtener_conection()
-          cursor = conn.cursor()
-     #try:
+     conn = db_creds.obtener_conection()
+     cursor = conn.cursor()
+     try:
           fichero = open('./DB/Reporte1.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
-          Resultado(str(df))
+          row = cursor.fetchone()
+          contenido =""
+          while row:
+             contenido+=" Total = %s " % (row[0])+'\n'
+             row = cursor.fetchone()
+          
+          Resultado(contenido)    
           conn.commit()
           conn.close()
-     #except:
-     #     print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
-     #     return
-     #print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)                    
+     except:
+          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+          return
+     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)                    
      
 
 def reporte2():
@@ -165,8 +169,12 @@ def reporte2():
           fichero = open('./DB/Reporte2.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          contenido =""
+          row = cursor.fetchone()
+          while row:
+             contenido+=" Añio = %s, Evento_Tsunami = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)    
           conn.commit()
           conn.close()
      except:
@@ -184,8 +192,12 @@ def reporte3():
           fichero = open('./DB/Reporte3.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Añio = %s, Evento_Tsunami = %s , Pais = %s " % (row[0],row[1],row[2])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)   
           conn.commit()
           conn.close()
      except:
@@ -200,8 +212,12 @@ def reporte4():
           fichero = open('./DB/Reporte4.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          contenido=""
+          row = cursor.fetchone()
+          while row:
+             contenido+=" Daños = %s, Pais = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido) 
           conn.commit()
           conn.close()
      except:
@@ -216,8 +232,12 @@ def reporte5():
           fichero = open('./DB/Reporte5.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Pais = %s, Total de muertos = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido) 
           conn.commit()
           conn.close()
      except:
@@ -232,8 +252,12 @@ def reporte6():
           fichero = open('./DB/Reporte6.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Añio = %s, Total de muertos = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)
           conn.commit()
           conn.close()
      except:
@@ -248,8 +272,12 @@ def reporte7():
           fichero = open('./DB/Reporte7.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Añio = %s, Evento_Tsunami = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)
           conn.commit()
           conn.close()
      except:
@@ -264,8 +292,12 @@ def reporte8():
           fichero = open('./DB/Reporte8.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Pais = %s, Total_de_casas_destruidas = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)
           conn.commit()
           conn.close()
      except:
@@ -280,8 +312,12 @@ def reporte9():
           fichero = open('./DB/Reporte9.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Pais = %s, Total_de_casas_dañados = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido) 
           conn.commit()
           conn.close()
      except:
@@ -296,8 +332,12 @@ def reporte10():
           fichero = open('./DB/Reporte10.sql')
           sql= fichero.read()
           cursor.execute(sql)
-          df = pd.DataFrame(cursor)
-          print (df)
+          row = cursor.fetchone()
+          contenido=""
+          while row:
+             contenido+=" Pais = %s, Alutra maxima = %s " % (row[0],row[1])+'\n'
+             row = cursor.fetchone()
+          Resultado(contenido)
           conn.commit()
           conn.close()
      except:
@@ -309,7 +349,7 @@ def reporte10():
 
 def Resultado(Contendio):
      fichero = open('./Resultado/Resultado.txt','w')
-     fichero.write(Contendio)
+     fichero.write(Contendio+'\n')
      fichero.close()   
 
 
