@@ -141,20 +141,21 @@ def Load_data():
 
 
 def reporte1():
-     conn = db_creds.obtener_conection()
-     cursor = conn.cursor()
-     try:
+          conn = db_creds.obtener_conection()
+          cursor = conn.cursor()
+     #try:
           fichero = open('./DB/Reporte1.sql')
           sql= fichero.read()
           cursor.execute(sql)
           df = pd.DataFrame(cursor)
           print (df)
+          Resultado(str(df))
           conn.commit()
           conn.close()
-     except:
-          print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
-          return
-     print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)                    
+     #except:
+     #     print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
+     #     return
+     #print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)                    
      
 
 def reporte2():
@@ -303,3 +304,13 @@ def reporte10():
           print(Back.RED,Fore.WHITE,"!! Could not load the query !!",Back.RESET)                    
           return
      print(Back.GREEN,Fore.BLACK,"!! Query succesfully !!",Back.RESET)
+
+
+
+def Resultado(Contendio):
+     fichero = open('./Resultado/Resultado.txt','w')
+     fichero.write(Contendio)
+     fichero.close()   
+
+
+
