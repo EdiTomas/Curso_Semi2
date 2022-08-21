@@ -25,13 +25,16 @@ https://pkg.go.dev/std
 
 #### _Menu principal_
 ![image](/assets/Tecnico/Menuprincipal.png)
+
 Este metodo  permite visualizar el metodo principal del programa en consola.
 
 #### _IOTOP_
 ![image](/assets/Tecnico/run.png)
+
 Este  permite correr la funcion iotop.
 
 ![image](/assets/Tecnico/execute.png)
+
 Este  permite ejecutar la funcion iotop.
 
 para visualizar el IOTOP ejecute el siguiente comando
@@ -42,9 +45,11 @@ sudo apt install iotop
 #### _TOP_
 
 ![image](/assets/Tecnico/RunTop.png)
+
 Este  permite correr la funcion top.
 
 ![image](/assets/Tecnico/ExecuteTop.png)
+
 Este  permite ejecutar la funcion top.
 
 

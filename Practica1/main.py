@@ -1,13 +1,5 @@
 from Menu import menu
 
-
-#cursor.execute('SELECT * FROM persons WHERE salesrep=%s', 'John Doe')
-#cursor.execute('SELECT * FROM PROFESION ')
-
-#for row in cursor:
-#    print("ID=%d, Name=%s" % (row['cod_prof'], row['nombre']))
-#conn.close()
-
 #instalador
 #python3 -m pip install colorama
 #pip install pymssql
@@ -18,6 +10,4 @@ from Menu import menu
 
 if __name__ == '__main__':
       menu.Menu_Princial()
-      
-
-
+       
