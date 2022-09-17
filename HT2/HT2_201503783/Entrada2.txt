@@ -1,0 +1,37 @@
+Carnet|Nombre|LlevaLab|Nota
+201700355|Diego Alejandro Martinez Garcia|Si|99
+201700521|Ludwing Gabriel Paz Hernandez|Si|81
+201700532|Milton Josue Antonio Villeda Gomez|Si|98
+201700837|Aby Noemí Palencia Reyes|Si|89
+201700857|Daniel Arturo Alfaro Gaitan|Si|99
+201709003|Pablo Josué Ayapán Vargas|Si|81
+201709029|Edy Fernando Galicia Pérez|Si|80
+201709075|Fabio Andre Sanchez Chavez|Si|90
+201709144|Oscar Roberto Velásquez León|Si|92
+201709159|Sergio Sebastian Chacón Herrera|Si|82
+201709343|Brandon Alexander Vargas Sarpec|Si|87
+201709502|Anggelo Santiago Son Mux|Si|88
+201800496|Juan Antonio Solares Samayoa|No|81
+201800516|Mynor Alisón Isai Saban Che|Si|94
+201800535|Jessica Elizabeth Botón Pérez|Si|91
+201800586|Gerber David Colindres Monterroso|No|83
+201800639|Carlos Raul Campos Melendez|No|85
+201800699|Ronald Alexandro Castro Perez|Si|92
+201801351|Elmer Gustavo Sanchez Garcia|Si|86
+201801375|José Ottoniel Sincal Guitzol|Si|85
+201801434|Carlos Ojani Ng Valladares|Si|96
+201801480|Cristian Alexander Gómez Guzmán|Si|83
+201807159|Josué David Zea Herrera|Si|96
+201807265|Kevin José Sandoval Catalán|Si|83
+201900051|Luis Felipe Delgado Benitez|Si|90
+201900629|Mario Josué Solis Solórzano|Si|80
+201901510|Pablo Daniel Rivas Marroquin|Si|95
+201901522|Welmann Saúl Paniagua Illescas|Si|96
+201902157|Romeo Ernesto Marroquín Sánchez|Si|84
+201902187|Fernando José Vásquez Castillo|Si|92
+201902302|Edson Saul Avila Ortiz|Si|99
+201902934|German José Paz Cordón|Si|98
+201903872|Rudy Aarón Gopal Marroquín Garcia|Si|86
+201903895|José Marcos García Olmino|Si|80
+201906552|Erick Daniel Antillón Chinchilla|Si|95
+201906564||Si|84
