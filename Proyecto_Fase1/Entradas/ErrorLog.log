@@ -1,0 +1,8 @@
+Microsoft.SqlServer.Dts.Runtime.DtsRuntimeException: No se encuentra el elemento en una colección. Este error se produce si, durante la ejecución del paquete, se intenta recuperar un elemento de una colección de un contenedor y no se encuentra.
+ ---> System.Runtime.InteropServices.COMException: No se encuentra el elemento en una colección. Este error se produce si, durante la ejecución del paquete, se intenta recuperar un elemento de una colección de un contenedor y no se encuentra.
+
+   en Microsoft.SqlServer.Dts.Runtime.Wrapper.IDTSVariables100.get_Item(Object Index)
+   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
+   en ST_cd59f0e5b79c42cda603fcde301e699a.ScriptMain.compras()
