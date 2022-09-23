@@ -1,8 +1,10 @@
-Microsoft.SqlServer.Dts.Runtime.DtsRuntimeException: No se encuentra el elemento en una colección. Este error se produce si, durante la ejecución del paquete, se intenta recuperar un elemento de una colección de un contenedor y no se encuentra.
- ---> System.Runtime.InteropServices.COMException: No se encuentra el elemento en una colección. Este error se produce si, durante la ejecución del paquete, se intenta recuperar un elemento de una colección de un contenedor y no se encuentra.
-
-   en Microsoft.SqlServer.Dts.Runtime.Wrapper.IDTSVariables100.get_Item(Object Index)
-   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
-   --- Fin del seguimiento de la pila de la excepción interna ---
-   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
-   en ST_cd59f0e5b79c42cda603fcde301e699a.ScriptMain.compras()
+System.Data.SqlClient.SqlException (0x80131904): Hay más columnas en la instrucción INSERT que valores en la cláusula VALUES. El número de valores de VALUES debe coincidir con el de columnas de INSERT.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en ST_7cbdf2e461454d2da211b53481081c99.ScriptMain.Main()
+ClientConnectionId:38b301cd-3198-4dcb-8f6f-32d3a64e43b5
+Error Number:109,State:1,Class:15
