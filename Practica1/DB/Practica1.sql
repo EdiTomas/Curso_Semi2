@@ -5,6 +5,8 @@ use Practica1;
 SELECT Name from sys.tables;
 
 
+select  count(*) as total_Pais,count(*) as total_Tsunami,
+ count(*) as total_Locationame  from  Pais,Tsunami,Locationname
 
 
 select * from temptsunami
